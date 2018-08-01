@@ -1,0 +1,25 @@
+{% extends 'game/base.html' %}
+{% load static %}
+{% block stylesheet %}
+<script src="{% static 'game/scripts/game.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+      <div class="row">
+        <div class="col" >
+					<div class = "text-left">
+						<a href="index.html" class="m-btn btn btn-secondary m-home">Home</a>
+					</div>
+            <div id="game-text" class="alert" role="alert">
+            </div>
+
+            <form autocomplete="off" id="game-form">
+							<div class="form-group">
+						    <input type="text" class="form-control" id="game-input" aria-describedby="game-input-help" placeholder="Press enter to continue" autofocus>
+						  </div>
+						</form>
+        </div>
+      </div>
+    </div>
+{% endblock %}

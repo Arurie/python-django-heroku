@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115199658-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-115199658-1');
+	</script>
+
+	<title>The Mouse with a Marble Nose</title>
+	<meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="{% static 'game/src/jQuery/jquery-3.3.1.min.js' %}"></script>
+  <script type='text/javascript' src="{% static 'game/src/popper.js' %}"></script>
+  <link rel="stylesheet" type="text/css" href="{% static 'game/src/bootstrap-v4/css/bootstrap.min.css' %}">
+  <script type="text/javascript" src="{% static 'game/src/bootstrap-v4/js/bootstrap.min.js' %}"></script>
+	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{% static 'game/styles/main.css' %}">
+  {% block stylesheet %}{% endblock %}
+
+</head>
+
+<body>
+
+  {% block body %}{% endblock %}
+
+</body>
+</html>

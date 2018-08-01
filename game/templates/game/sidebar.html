@@ -1,0 +1,57 @@
+{% extends 'game/base.html' %}
+{% load static %}
+{% block body %}
+
+	<!--this is the top bar-->
+	<div class="m-topbar fixed-top text-center d-block d-sm-none">
+		<a href="{% url 'game:game' %}" class="btn btn-secondary">Play Game</a>
+		<a href="index.html" class="btn btn-dark">Home</a>
+		<a href="contact.html" class="btn btn-secondary">About</a>
+	</div>
+	<div class="d-block d-sm-none">
+		<br>
+		<br>
+	</div>
+
+	<!--this is the sidebar-->
+	<div class="m-fixed">
+		<div class="container d-none d-sm-block">
+			<div class="row">
+				<div class="col-sm-3 text-center m-sidebar">
+					<div class="">
+						<div class="row">
+							<br>
+						</div>
+						<img src="https://i.imgur.com/2nnc6CB.png" class="rounded-circle img-fluid" alt="Responsive image">
+						<div class="row">
+							<br>
+						</div>
+						<a href="{% url 'game:game' %}" class="btn btn-secondary">Play!</a>
+						<div class="row">
+							<br>
+						</div>
+						<a href="index.html" class="btn btn-dark">Home</a>
+						<div class="row">
+							<br>
+						</div>
+						<a href="contact.html" class="btn btn-secondary">About</a>
+						<div class="row">
+							<div style="width:60%; margin-left:20%;">
+								<br>
+								<a href="https://medium.com/@al11"><img src="https://i.imgur.com/fcuiTYS.png"  class="m-icon"></a>
+								<a href="https://www.instagram.com/airuri/"><img src="https://i.imgur.com/tP28Nch.png"  class="m-icon d-md-none"></a>
+								<a href="https://www.instagram.com/airuri/"><img src="https://i.imgur.com/KYHVw04.png"  class="m-icon d-none d-md-inline"></a>
+								<a href="https://twitter.com/MarbleNoseMouse"><img src="https://i.imgur.com/zdblWvN.png"  class="m-icon"></a>
+								<a href="https://www.linkedin.com/in/alii-cordes/"><img src="https://i.imgur.com/n4wcXMb.png"  class="m-icon d-md-none"></a>
+								<a href="https://www.linkedin.com/in/alii-cordes/"><img src="https://i.imgur.com/hlD54oC.png"  class="m-icon d-none d-md-inline"></a>
+								<a href="https://www.facebook.com/Skinparison/"><img src="https://i.imgur.com/y6h8elh.png"  class="m-icon"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  {% block content %}{% endblock %}
+{% endblock %}

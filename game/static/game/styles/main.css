@@ -1,0 +1,137 @@
+body {
+	background-image: url("https://i.imgur.com/5okDn8C.jpg");
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: repeat-y-x;
+	background-color: #0a0e18;
+}
+
+@font-face {
+		font-family: "CaviarDreams";
+		src: url("../fonts/CaviarDreams.ttf");
+}
+
+.m-entry a {
+	font-weight: bold;
+	color: #FFDF00;
+	text-decoration: none;
+}
+
+.m-entry a:active {
+	text-decoration: none;
+}
+
+.m-entry a:visited {
+	text-decoration: none;
+	color: #F0E68C;
+}
+
+.m-entry a:hover {
+	text-decoration: none;
+	color: #C3B7B7;
+}
+
+.m-btn {
+	font-family: "CaviarDreams";
+}
+
+.m-home {
+	border-radius: 100%;
+	margin: 5px;
+}
+
+.m-entry {
+	margin-top: 1em;
+	color: #C3C3E5;
+}
+
+.m-entry .m-h {
+	background-color: #705c66;
+	color: #fff;
+	padding: 2px 7px;
+	border-radius: 15px;
+	font-family: "CaviarDreams";
+  font-size: 25px;
+	margin-bottom: 3px;
+}
+
+.m-p h5 {
+	font-family: "CaviarDreams";
+	color: #fff;
+}
+
+.m-entry .m-p {
+	font-size: 14px;
+	background-color: #363838;
+	padding: 10px 10px;
+	border-radius: 15px;
+  font-family: "Muli";
+	margin-bottom: 7px;
+}
+
+.m-imp-txt {
+	font-weight: bold;
+	color: #C3B7B7;
+}
+
+.m-icon {
+	height: 2em;
+	width: 2em;
+	margin: 5px;
+}
+
+.m-c-icon {
+	height: 2em;
+	width: 2em;
+	float: left;
+	margin: 3px;
+}
+
+.m-fixed {
+	position: fixed;
+	width: 100%;
+}
+
+.m-sidebar {
+  background-color: #705c66;
+	font-family: "CaviarDreams";
+	font-weight: bold;
+	height: 100vh;
+}
+
+.m-sidebar a {
+	width: 80%;
+}
+
+.m-topbar {
+  background-color: #C3C3E5;
+	padding: 3px;
+}
+
+.card {
+	margin: 10px 0px;
+}
+
+.card-body {
+	background-color: #C3C3E5;
+	color: #0a0e18;
+}
+
+#periwinkle {
+	color: #0a0e18;
+}
+
+#grey {
+	color: #666;
+}
+
+.game-choice {
+	color: #996515;
+}
+
+#game-text {
+	background-color: #C3C3E5;
+	height: 70vh;
+	overflow-y: scroll;
+	font-family: "Helvetica";
+}
